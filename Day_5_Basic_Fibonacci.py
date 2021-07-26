@@ -2,7 +2,7 @@
 # Type - Basic Programming
 # Program - Print the Fibonacci series for n th terms
 # Explanation - For 5 th terms , fibonacci series will be like
-# 0,1,1,2,3
+# 0,1,1,2,3,5,8,13,21
 
 def fibonacci_series(number_of_terms):
     # first two terms
@@ -26,5 +26,5 @@ def fibonacci_series(number_of_terms):
            count += 1
     return fibonacci
 
-fib = fibonacci_series(8)
+fib = fibonacci_series(7)
 print(fib)
